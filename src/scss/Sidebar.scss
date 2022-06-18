@@ -1,0 +1,43 @@
+.sidebar-container {
+  height: 100%;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+
+  .item-parent-box {
+    padding: 5px 0px;
+    border-bottom: 1px solid #000;
+
+    .title-parent-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 24px;
+      padding: 0px 20px;
+
+      .up-arrow,
+      .down-arrow {
+        width: 15px;
+        height: auto;
+        line-height: 1px;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    .list-item {
+      padding: 0 50px;
+    }
+
+    .item-child {
+      span {
+        font-size: 20px;
+        position: relative;
+        left: -10px;
+      }
+    }
+  }
+}

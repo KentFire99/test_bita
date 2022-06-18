@@ -1,0 +1,17 @@
+.header-container {
+  display: flex;
+  flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 30px;
+  width: 100%;
+  background-color: #fff;
+
+  .menu-box {
+    .menu-icon {
+        width: 30px;
+        height: 4px;
+      background-color: black;
+      margin: 6px 0;
+    }
+  }
+}
